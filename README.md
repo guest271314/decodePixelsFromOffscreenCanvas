@@ -47,3 +47,5 @@ worker.onmessage = async e => {
 };
 worker.postMessage(null);
 ```
+
+plnkr https://plnkr.co/edit/rr8aXtD5lTGf1MAAyVCy?p=preview
