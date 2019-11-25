@@ -1,6 +1,6 @@
 # decodePixelsFromOffscreenCanvas
 
-Convert `OffscreenCanvas` to `ImageData` using `decodePixels()` and `zlib.js` from [png.js](https://github.com/foliojs/png.js) (`OffscreenCanvasRenderingContext2D` is not defined at Firefox 70 or Nightly 72).
+Convert `OffscreenCanvas` to `ImageData` using `decodePixels()` and `zlib.js` from [png.js](https://github.com/foliojs/png.js) (`OffscreenCanvasRenderingContext2D` not implemented at Firefox 70 or Nightly 72).
 
 <h3>Usage</h3>
 
@@ -48,4 +48,4 @@ worker.onmessage = async e => {
 worker.postMessage(null);
 ```
 
-plnkr https://plnkr.co/edit/rr8aXtD5lTGf1MAAyVCy?p=preview
+plnkr https://plnkr.co/edit/0By56O?p=preview
